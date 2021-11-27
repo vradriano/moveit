@@ -44,42 +44,44 @@ export function Countdown() {
         <div>
           <span>{minuteLeft}</span>
           <span>{minuteRight}</span>
-        </div>
+        </div >
         <span>:</span>
         <div>
           <span>{secondLeft}</span>
           <span>{secondRight}</span>
         </div>
-      </div>
+      </div >
 
-      {hasFinished ? (
-        <button
-          disabled
-          className={`${styles.countdownButton}`}
-        >
-          Ciclo encerrado
-        </button>
-      ) : (
-        <>
-          {isActive ? (
-            <button
-              type="button"
-              className={`${styles.countdownButton} ${styles.countdownButtonActive}`}
-              onClick={resetCountDown}
-            >
-              Desativar Ciclo
-            </button>
-          ) :
-            <button
-              type="button"
-              className={styles.countdownButton}
-              onClick={startCountDown}
-            >
-              Iniciar um Ciclo
-            </button>};
-        </>
-      )}
+      {
+        hasFinished ? (
+          <button
+            disabled
+            className={`${styles.countdownButton}`}
+          >
+            Ciclo encerrado
+          </button >
+        ) : (
+          <>
+            {isActive ? (
+              <button
+                type="button"
+                className={`${styles.countdownButton} ${styles.countdownButtonActive}`}
+                onClick={resetCountDown}
+              >
+                Desativar Ciclo
+              </button>
+            ) :
+              <button
+                type="button"
+                className={styles.countdownButton}
+                onClick={startCountDown}
+              >
+                Iniciar um Ciclo
+              </button>};
+          </>
+        )
+      }
 
-    </div>
+    </div >
   )
 }
