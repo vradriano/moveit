@@ -16,6 +16,7 @@ MoveIT é um aplicativo baseado na técnica de Pomodoro, onde o usuário a cada 
 - [TypeScript](https://www.typescriptlang.org/)
 - [NextJS](https://nextjs.org/)
 - [Js-cookie](https://www.npmjs.com/package/js-cookie)
+- [Vercel](https://vercel.com/)
 
 ## Testes
 Você pode testar as funcionalidades da aplicação aqui: <a href="https://moveit-alpha-one-42.vercel.app/">Vercel</a>
