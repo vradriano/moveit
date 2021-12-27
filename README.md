@@ -1,34 +1,26 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<p align="center"><img src="https://user-images.githubusercontent.com/60162736/108780878-d022c700-7547-11eb-9288-63242915c9ad.png" justifyContent="center"></p>
 
-## Getting Started
+## Descrição
+MoveIT é um aplicativo baseado na técnica de Pomodoro, onde o usuário a cada 25 minutos é desafiado com um exercício para se manter saudável, estimulando assim quem passa muito tempo na frente de um desktop/mobile, a se exercitar. A cada exercício o usuário é recompensado com experiência, onde é necessário uma certa quantia de experiência para passar de nível. Desenvolvido durante NextLevelWeek#4, trilha ReactJS, da Rocketseat.
 
-First, run the development server:
+## Funcionalidades
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+- [x] Iniciar um ciclo de 25 minutos.
+- [x] Aviso/Notificação sonora quando um ciclo é encerrado.
+- [x] Abandonar o ciclo.
+- [x] Recompensa a cada exercício concluído.
+- [x] Subir de nível.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tecnologias / Bibliotecas
+- [React](https://pt-br.reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [NextJS](https://nextjs.org/)
+- [Js-cookie](https://www.npmjs.com/package/js-cookie)
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Testes
+Você pode testar as funcionalidades da aplicação aqui: <a href="https://moveit-alpha-one-42.vercel.app/">Vercel</a>
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Layout
+<img src="https://user-images.githubusercontent.com/60162736/108933223-89a59900-7629-11eb-93fa-70d4e5aa5627.png">
+<img src="https://user-images.githubusercontent.com/60162736/108933227-8ad6c600-7629-11eb-8345-cf0c203aee46.png">
+<img src="https://user-images.githubusercontent.com/60162736/108933228-8ad6c600-7629-11eb-8a19-f81d764eb008.png">
